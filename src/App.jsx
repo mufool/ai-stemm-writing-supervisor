@@ -5,7 +5,7 @@ import SnakeGame from './SnakeGame';
 import XMLRenderer from './XMLRenderer';
 import ErrorBoundary from './ErrorBoundary';
 
-const API_ENDPOINT = "https://lyson-dify.zeabur.app/v1/chat-messages";
+const API_ENDPOINT = import.meta.env.VITE_API_URL;
 const API_KEY = import.meta.env.VITE_API_KEY;
 
 function App() {
