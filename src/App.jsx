@@ -5,7 +5,7 @@ import SnakeGame from './SnakeGame';
 import XMLRenderer from './XMLRenderer';
 import ErrorBoundary from './ErrorBoundary';
 
-const API_ENDPOINT = "https://api.dify.ai/v1";
+const API_ENDPOINT = "https://api.dify.ai/v1/chat-messages";
 const API_KEY = import.meta.env.VITE_API_KEY;
 
 function App() {
